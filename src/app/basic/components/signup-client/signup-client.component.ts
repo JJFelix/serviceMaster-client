@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 export class SignupClientComponent {
   validateForm!: FormGroup;
 
+  
   constructor(
     private fb: FormBuilder,
     private authService: AuthService,
